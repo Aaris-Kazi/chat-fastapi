@@ -108,3 +108,4 @@ if __name__ == "__main__":
     uvicorn.run(app)
 
 # uvicorn main:app --reload
+# web: gunicorn -w 3 -k uvicorn.workers.UvicornWorker
