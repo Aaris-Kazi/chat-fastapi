@@ -1,0 +1,47 @@
+.container.chat-box{
+    background-color: #47afff;
+    min-height: 20rem;
+    border-radius: 15%;
+}
+.row.chat-box{
+    min-height: 20rem;
+    /* background-color: rgba(255,0,0,0.1); */
+    background-color: #E6EAEA;
+    overflow-y: scroll;
+}
+.col.sidebar{
+    background-color: #2c3e50;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.col.align-self-end.text{
+    text-align: right;
+}
+.rounded-pill.text{
+    background-color: #435f7a;
+    max-width: fit-content;
+    content: ' ';
+    line-height: 1.5em;
+    padding: 1em;
+    color: white;
+    
+    
+}
+.rounded-pill.text.sender{
+    background-color: #f5f5f5;
+    max-width: fit-content;
+    content: ' ';
+    line-height: 1.5em;
+    padding: 1em;
+    margin-left: auto;
+    color: black;
+    
+}
+.row.field{
+    background-color: #E6EAEA;
+}
+.input-group.mb-3.style{
+    padding-top: 40px;
+}
