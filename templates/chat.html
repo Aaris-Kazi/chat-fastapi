@@ -49,7 +49,8 @@
     <script type="text/javascript" charset="utf-8">
         //var client_id = Date.now();
         var client_id = "{{ uname }}"
-        var ws = new WebSocket("ws://localhost:53694/ws/"+client_id);
+        var ws = new WebSocket("ws://localhost:8000/ws/"+client_id);
+        //var ws = new WebSocket("ws://localhost:8000/ws/"+client_id);52.5.82.174:443
         ws.onmessage = function(event) {
             const messages1 = document.getElementById('messages1');
             const message1 =  document.createElement('div');
